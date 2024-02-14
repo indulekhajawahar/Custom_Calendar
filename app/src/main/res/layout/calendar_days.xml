@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="10dp">
+
+    <LinearLayout
+        android:id="@+id/calendar_week_1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="7"
+        >
+        <TextView
+            android:id="@+id/week1_day1"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:background="@color/Coral"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:id="@+id/week1_day2"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:background="@color/Coral"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:id="@+id/week1_day3"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:background="@color/Coral"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:id="@+id/week1_day4"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@color/Coral"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:id="@+id/week1_day5"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@color/Coral"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:id="@+id/week1_day6"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@color/Coral"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:id="@+id/week1_day7"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@color/Coral"
+            android:layout_marginRight="5dp"
+            />
+    </LinearLayout>
+</FrameLayout>
